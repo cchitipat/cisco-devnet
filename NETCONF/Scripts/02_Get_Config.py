@@ -17,9 +17,7 @@ DEVICE = manager.connect(host=HOST,
                          look_for_keys=False)
 
 # Get all configuration
-
 result = DEVICE.get_config('running')
-
 print (result)
 
 # Close Session
